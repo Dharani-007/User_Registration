@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22da428e-a79b-4d9f-8ace-413c82889eba" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/UserRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserRegistration.java" afterDir="false" />
-    </list>
+    <list default="true" id="22da428e-a79b-4d9f-8ace-413c82889eba" name="Changes" comment="Added : Pattern" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="UC1-Validate_FirstName" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,11 +53,19 @@
       <option name="project" value="LOCAL" />
       <updated>1679074549467</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added : Pattern">
+      <created>1679076996697</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679076996697</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added : As a User need tO  enter a valid First Name" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added : As a User need tO  enter a valid First Name" />
+    <MESSAGE value="Added : Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added : Pattern" />
   </component>
 </project>
