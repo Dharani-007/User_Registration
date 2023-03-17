@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22da428e-a79b-4d9f-8ace-413c82889eba" name="Changes" comment="Added : Pattern" />
+    <list default="true" id="22da428e-a79b-4d9f-8ace-413c82889eba" name="Changes" comment="Added :As a User need to enter a valid email">
+      <change beforePath="$PROJECT_DIR$/src/UserRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserRegistration.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="UC3-Valid_Email" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -60,12 +62,20 @@
       <option name="project" value="LOCAL" />
       <updated>1679076996697</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added :As a User need to enter a valid email">
+      <created>1679077488252</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679077488252</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added : As a User need tO  enter a valid First Name" />
     <MESSAGE value="Added : Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added : Pattern" />
+    <MESSAGE value="Added :As a User need to enter a valid email" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added :As a User need to enter a valid email" />
   </component>
 </project>
