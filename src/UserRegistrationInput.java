@@ -1,3 +1,4 @@
+
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -27,6 +28,12 @@ public class UserRegistrationInput {
         String regex = "(91)?[7-9][0-9]{9}";
         pattern = Pattern.compile(regex);
         matcher = pattern.matcher(mobilenumber);
+        return matcher.matches();
+    }
+    public boolean isPasswordValid(String password){
+        String regex = "[a-zA-Z]{8,}";
+        pattern = Pattern.compile(regex);
+        matcher = pattern.matcher(password);
         return matcher.matches();
     }
 }
