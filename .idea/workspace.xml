@@ -67,13 +67,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679077488252</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added : Write JUnit Test to validate the User Entry for First Name, Last Name, Email, Mobile, and Password.">
+      <created>1679104206939</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679104206939</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added : As a User need tO  enter a valid First Name" />
     <MESSAGE value="Added : Pattern" />
     <MESSAGE value="Added :As a User need to enter a valid email" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added :As a User need to enter a valid email" />
+    <MESSAGE value="Added : Write JUnit Test to validate the User Entry for First Name, Last Name, Email, Mobile, and Password." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added : Write JUnit Test to validate the User Entry for First Name, Last Name, Email, Mobile, and Password." />
   </component>
 </project>
