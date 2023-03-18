@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class UserRegistration {
@@ -5,6 +6,7 @@ public class UserRegistration {
         System.out.println("User registration problem");
         Scanner sc = new Scanner(System.in);
         UserRegistrationInput userRegistration = new UserRegistrationInput();
+        ArrayList<String> emails = new ArrayList<>();
 
         System.out.println("Enter first name ");
         String firstName = sc.next();
@@ -40,5 +42,39 @@ public class UserRegistration {
             System.out.println("Valid password");
         else
             System.out.println("Invalid password");
+
+        // Valid Emails
+        emails.add("abc@yahoo.com");
+        emails.add("abc-100@yahoo.com");
+        emails.add("abc.100@yahoo.com");
+        emails.add("abc111@abc.com");
+        emails.add("abc-100@abc.net");
+        emails.add("abc.100@abc.com.au");
+        emails.add("abc@1.com");
+        emails.add("abc@gmail.com.com");
+        emails.add("abc+100@gmail.com");
+
+        // Invalid Emails
+        emails.add("abc");
+        emails.add("abc@.com.my");
+        emails.add("abc123@gmail.a");
+        emails.add("abc123@.com");
+        emails.add("abc123@.com.com");
+        emails.add(".abc@abc.com");
+        emails.add("abc()*@gmail.com");
+        emails.add("abc@%*.com");
+        emails.add("abc..2002@gmail.com");
+        emails.add("abc.@gmail.com");
+        emails.add("abc@abc@gmail.com");
+        emails.add("abc@gmail.com.1a");
+        emails.add("abc@gmail.com.aa.au");
+
+        for (String mail : emails){
+            if (userRegistration.isEmailValid(mail))
+                System.out.println(mail + " Valid Email");
+            else
+                System.out.println(mail + " Invalid Email");
+
+        }
     }
 }
